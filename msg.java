@@ -1,10 +1,10 @@
-// This is a simple JavaScript program
+public class msg {
+    public static void main(String[] args) {
+        String name = "Naresh";
+        greetUser(name);
+    }
 
-let name = "Naresh";
-
-function greetUser() {
-    console.log("Hello, " + name + "! Welcome to JavaScript.");
-    console.log("Hello, " + name + "! Welcome to Naresh.");
+    public static void greetUser(String name) {
+        System.out.println("Hello, " + name + "! Welcome to Naresh.");
+    }
 }
-
-greetUser();
